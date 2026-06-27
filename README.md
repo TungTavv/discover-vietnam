@@ -4,7 +4,7 @@
 
 A responsive, multi-page travel guide website built with HTML, CSS, and vanilla JavaScript — showcasing Vietnam's best beaches, temples, and travel routes.
 
-**🌐 Live Site:** `https://<your-username>.github.io/vietnam-travel`
+**🌐 Live Site:** `https://TungTavv.github.io/vietnam-travel`
 
 ---
 
