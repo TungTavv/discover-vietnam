@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Discover Vietnam</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ───────────────────────────── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Discover<span>VN</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── PAGE HEADER ───────────────────────────── -->
+  <header class="page-header">
+    <p class="section-label">Get in Touch</p>
+    <h1>Contact <em style="font-style:italic; color:var(--gold)">Us</em></h1>
+  </header>
+
+  <!-- ── CONTACT SECTION ───────────────────────── -->
+  <section class="contact-section">
+    <div class="contact-inner">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Plan Your Vietnam Journey</h2>
+        <p>
+          Whether you have a question about a destination, want to
+          collaborate, or simply want to share your Vietnam story —
+          we'd love to hear from you.
+        </p>
+
+        <div class="contact-item">
+          <span class="ci-icon">✉️</span>
+          <div>
+            <h4>Email</h4>
+            <p>hello@discovervn.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="ci-icon">📍</span>
+          <div>
+            <h4>Based In</h4>
+            <p>Hà Nội, Việt Nam</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="ci-icon">⏰</span>
+          <div>
+            <h4>Response Time</h4>
+            <p>Within 24 hours (UTC+7)</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="ci-icon">💬</span>
+          <div>
+            <h4>Languages</h4>
+            <p>English &amp; Tiếng Việt</p>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem; padding:1.5rem; background:var(--deep); color:rgba(255,255,255,0.6); font-size:0.88rem;">
+          <p style="color:var(--gold); font-weight:600; text-transform:uppercase; font-size:0.75rem; letter-spacing:0.1em; margin-bottom:0.75rem;">
+            Travel Tip
+          </p>
+          The best time to visit Vietnam is November to April, when rainfall is
+          lowest across the centre and south. The north has a cool, misty winter
+          from December to February — perfect for Sapa's terraced landscapes.
+        </div>
+      </div>
+
+      <!-- Email Form -->
+      <div class="email-form">
+        <h3>Send Us a Message</h3>
+        <p class="form-sub">All fields marked * are required.</p>
+
+        <form id="contactForm" novalidate>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Your first name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Your last name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Topic</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option value="trip-planning">Trip Planning Help</option>
+              <option value="beach">Beach Destinations</option>
+              <option value="temples">Temples &amp; History</option>
+              <option value="routes">Country Routes</option>
+              <option value="collaborate">Collaboration / Press</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us about your travel plans, questions, or anything else on your mind…"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <span class="form-msg">We reply within 24 hours.</span>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Discover<span>VN</span></a>
+          <p>An independent travel guide dedicated to helping you experience
+          Vietnam authentically — beyond the tourist trail.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Destinations</h4>
+          <ul>
+            <li><a href="index.html#recommendations">Beaches</a></li>
+            <li><a href="index.html#recommendations">Temples</a></li>
+            <li><a href="index.html#recommendations">Country Routes</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 DiscoverVN Travel Guide. Built for IBM JavaScript Coursera Final Project.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
